@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#navbar {
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+#navbar .container #title {
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 0.01em;
+    font-family: 'Comic Neue', cursive;
+    margin-top: 12.5px;
+}
+
+.box-container {
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+#square {
+    border: 2px solid gray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#keyboard .keyboard-container {
+    margin: auto;
+    overflow: hidden;
+    width: 550px;
+    height: 180px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 20px 15px;
+    border-radius: 7px;
+}
+
+.keyboard-row1,
+.keyboard-row2,
+.keyboard-row3 {
+    text-align: center;
+}
+
+.alert-container {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    /** any other properties shown right away before p created*/
+}
+
+.alert-container p {
+    color: black;
+    padding: 8px;
+    margin: 3px;
+    background-color: white;
+    width: 15%;
+    border-radius: 3px;
+    text-align: center;
+
+
+}
