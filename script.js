@@ -192,9 +192,9 @@ function enterKey() {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'f94af48cf9msh4cdc298f57bfe6cp1325d8jsnd476153c9621',
-                'X-RapidAPI-Host': 'twinword-word-graph-dictionary.p.rapidapi.com'
-                //place to hide key??
+                'X-RapidAPI-Key': 'here',
+                'X-RapidAPI-Host': 'here'
+                //find better solution for hiding key in JavaScript
             }
         };
 
